@@ -42,13 +42,9 @@ variable "template_name" {
 }
 
 variable "vm_name" {
-  description = "Naam van de Windows VM"
-  type        = string
 }
 
 variable "ipv4_address" {
-  description = "Statisch IPv4 adres voor de VM"
-  type        = string
 }
 
 variable "ipv4_gateway" {
