@@ -56,7 +56,7 @@ variable "ipv4_gateway" {
 }
 
 variable "windows_admin_password" {
-  description = "Administrator wachtwoord voor de Windows VM (moet complex zijn)"
+  description = "WindAdmin2024!"
   type        = string
   sensitive   = true
 }
